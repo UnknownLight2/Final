@@ -1,0 +1,23 @@
+{
+    "0": {
+        "name": "rgb2gray",
+        "file": "rgb2gray.cpp",
+        "fileloc": "7",
+        "instructions": "61",
+        "total_instructions": "61",
+        "calls": "",
+        "basicblocks": "7",
+        "memory_accesses": "11",
+        "control_depth": "4",
+        "def_use_depth": "2",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

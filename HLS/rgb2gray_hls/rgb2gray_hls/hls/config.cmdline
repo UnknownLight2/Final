@@ -1,0 +1,3 @@
+relativeroot=C:/Users/LENOVO/HWSW/HLS/rgb2gray_hls
+original_argv=--mode hls --package --config C:\Users\LENOVO\HWSW\HLS\rgb2gray_hls\hls_config.cfg --work_dir rgb2gray_hls 
+

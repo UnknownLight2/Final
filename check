@@ -1,0 +1,43 @@
+import cv2
+import numpy as np
+import glob
+import os
+
+# Load calibration
+data = np.load("camera_calibration.npz")
+K = data["camera_matrix"]
+dist = data["dist_coeffs"]
+
+print("Camera matrix K:")
+print(K)
+print("Distortion:")
+print(dist)
+
+# In kích thước ảnh calibration đầu tiên
+paths = glob.glob("calibration_images/*.jpg") + glob.glob("calibration_images/*.png")
+
+if len(paths) == 0:
+    print("Không thấy ảnh calibration.")
+else:
+    img = cv2.imread(paths[0])
+    h, w = img.shape[:2]
+    print("\nCalibration image size:")
+    print(f"width = {w}, height = {h}")
+
+# In kích thước frame realtime từ IP Webcam
+CAMERA_URL = "http://192.168.1.34:8080/video"
+
+cap = cv2.VideoCapture(CAMERA_URL)
+
+if not cap.isOpened():
+    print("Không mở được IP Webcam.")
+else:
+    ret, frame = cap.read()
+    if ret:
+        h, w = frame.shape[:2]
+        print("\nRealtime frame size:")
+        print(f"width = {w}, height = {h}")
+    else:
+        print("Không lấy được frame realtime.")
+
+cap.release()

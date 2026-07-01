@@ -1,0 +1,20 @@
+{
+  "0": {
+    "basicblocks": 7,
+    "calls": "",
+    "control_depth": 1,
+    "def_use_depth": 2,
+    "file": "rgb2gray.cpp",
+    "fileloc": 7,
+    "instructions": 79,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 9,
+    "name": "rgb2gray",
+    "stores": {
+      "T": 1
+    },
+    "total_instructions": 598
+  }
+}

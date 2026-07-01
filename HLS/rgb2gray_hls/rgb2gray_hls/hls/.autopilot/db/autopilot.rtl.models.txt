@@ -1,0 +1,7 @@
+rgb2gray_mul_8ns_9ns_16_1_1
+rgb2gray_mac_muladd_8ns_7ns_16s_16_4_1
+rgb2gray_mac_muladd_8ns_5ns_16s_16_4_1
+rgb2gray_gmem_m_axi
+rgb2gray_control_s_axi
+rgb2gray_flow_control_loop_pipe
+rgb2gray

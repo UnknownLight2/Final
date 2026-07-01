@@ -1,0 +1,64 @@
+---
+MainSourceFile:  'C:/Users/LENOVO/HWSW/HLS/rgb2gray_hls/rgb2gray_hls/hls/.autopilot/db/rgb2gray.pp.0.cpp'
+Diagnostics:
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_676_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      676
+      Replacements:
+        - FilePath:        'C:\Users\LENOVO\HWSW\HLS\rgb2gray_hls\rgb2gray_hls\hls\.autopilot\db\rgb2gray.pp.0.cpp'
+          Offset:          280097
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_676_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\LENOVO\HWSW\HLS\rgb2gray_hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_690_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      690
+      Replacements:
+        - FilePath:        'C:\Users\LENOVO\HWSW\HLS\rgb2gray_hls\rgb2gray_hls\hls\.autopilot\db\rgb2gray.pp.0.cpp'
+          Offset:          280568
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_690_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\LENOVO\HWSW\HLS\rgb2gray_hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_704_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      704
+      Replacements:
+        - FilePath:        'C:\Users\LENOVO\HWSW\HLS\rgb2gray_hls\rgb2gray_hls\hls\.autopilot\db\rgb2gray.pp.0.cpp'
+          Offset:          281040
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_704_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\LENOVO\HWSW\HLS\rgb2gray_hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1251_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_fixed_base.h'
+      FileOffset:      1251
+      Replacements:
+        - FilePath:        'C:\Users\LENOVO\HWSW\HLS\rgb2gray_hls\rgb2gray_hls\hls\.autopilot\db\rgb2gray.pp.0.cpp'
+          Offset:          626443
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1251_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\LENOVO\HWSW\HLS\rgb2gray_hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_24_1:  '
+      FilePath:        rgb2gray.cpp
+      FileOffset:      24
+      Replacements:
+        - FilePath:        'C:\Users\LENOVO\HWSW\HLS\rgb2gray_hls\rgb2gray_hls\hls\.autopilot\db\rgb2gray.pp.0.cpp'
+          Offset:          2229462
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_24_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\LENOVO\HWSW\HLS\rgb2gray_hls'
+...

@@ -1,0 +1,6 @@
+   Build using "C:/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/clang++"
+   Compiling apatb_rgb2gray.cpp
+   Compiling rgb2gray.cpp_pre.cpp.tb.cpp
+   Compiling tb_rgb2gray.cpp_pre.cpp.tb.cpp
+   Compiling apatb_rgb2gray_ir.ll
+   Generating cosim.tv.exe

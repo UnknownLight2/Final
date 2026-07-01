@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\LENOVO\\HWSW\\HLS\\rgb2gray_hls\\rgb2gray_hls\\rgb2gray_hls.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "06/29/26 16:58:10",
+ "timestampMillis": "1782727090578",
+ "buildStep": {
+  "cmdId": "902ceed4-8b66-425c-993d-c4a97b706e42",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\LENOVO\\HWSW\\HLS\\rgb2gray_hls\\rgb2gray_hls\\logs\\rgb2gray_hls.steps.log",
+  "commandLine": "C:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\LENOVO\\HWSW\\HLS\\rgb2gray_hls\\hls_config.cfg --work_dir rgb2gray_hls ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\LENOVO\\HWSW\\HLS\\rgb2gray_hls\\hls_config.cfg",
+   "--work_dir",
+   "rgb2gray_hls"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\LENOVO\\HWSW\\HLS\\rgb2gray_hls"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/29/26 16:58:10",
+ "timestampMillis": "1782727090578",
+ "status": {
+  "cmdId": "902ceed4-8b66-425c-993d-c4a97b706e42",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "06/29/26 16:58:16",
+ "timestampMillis": "1782727096559",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "rgb2gray",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\LENOVO\\HWSW\\HLS\\rgb2gray_hls\\rgb2gray.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "06/29/26 16:58:16",
+ "timestampMillis": "1782727096560",
+ "buildStep": {
+  "cmdId": "9e0aca72-666f-4f37-80ec-065a658d220b",
+  "name": "",
+  "logFile": "C:/Users\\LENOVO\\HWSW\\HLS\\rgb2gray_hls\\rgb2gray_hls\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\LENOVO\\HWSW\\HLS\\rgb2gray_hls"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/29/26 16:58:16",
+ "timestampMillis": "1782727096561",
+ "status": {
+  "cmdId": "9e0aca72-666f-4f37-80ec-065a658d220b",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/29/26 16:58:22",
+ "timestampMillis": "1782727102737",
+ "status": {
+  "cmdId": "9e0aca72-666f-4f37-80ec-065a658d220b",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/29/26 16:58:22",
+ "timestampMillis": "1782727102889",
+ "status": {
+  "cmdId": "902ceed4-8b66-425c-993d-c4a97b706e42",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/29/26 16:58:22",
+ "timestampMillis": "1782727102890",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/29/26 16:58:22",
+ "timestampMillis": "1782727102890",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

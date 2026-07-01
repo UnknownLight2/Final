@@ -1,0 +1,6 @@
+
+Family       : zynq
+Device       : xc7z014s
+Package      : -clg484
+Speed Grade  : -1
+Clock Period : 10
